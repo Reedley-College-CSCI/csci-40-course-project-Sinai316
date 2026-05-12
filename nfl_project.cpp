@@ -1,4 +1,4 @@
-//Sinai Pulido
+//Sinai Pulido Course Project
 
 
 #include <iostream>
