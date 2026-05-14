@@ -7,11 +7,12 @@
 #include <iomanip>
 
 using namespace std;
-
+const int MAX_PLAYERS = 100; // added a max amount of players
 // 1. The Player Struct
 struct Player {
     int number;
-    string name;
+    string firstName; // created first and last names 
+    string lastName;
     string position;
     string college;
     int experience;
