@@ -3,8 +3,7 @@
 
 #include <iostream>
 #include <fstream>
-#include <vector>
-#include <string>
+#include <string> // Removed vector because of the requirements
 #include <iomanip>
 
 using namespace std;
