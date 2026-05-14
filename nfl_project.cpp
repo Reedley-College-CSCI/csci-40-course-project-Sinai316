@@ -26,12 +26,15 @@ int loadRoster(Player roster[]) {
         return 0;
     }
 
-    Player temp;
+    
     // Number Name Position College Experience
-    while (inputFile >> temp.number >> temp.name >> temp.position >> temp.college >> temp.experience) {
-        roster.push_back(temp);
+    while (count < MAX_PLAYERS && inputFile >> roster[count].number) {
+        inputFile >> roster[count].firstName >> roster[count].lastName >> roster[count].position // Added the first and last names
+            >> roster[count].college >> roster[count].experience;
+        count++;
     }
     inputFile.close();
+    return count;
 }
 
 // 3. Search Logic
