@@ -1,0 +1,105 @@
+3 Christian Kirk WR Texas_A&M 9 
+
+11 Brandon Aiyuk WR Arizona_State 6 
+
+13 Brock Purdy QB Iowa_State 5 
+
+19 Jacob Cowing WR Arizona 3 
+
+23 Christian McCaffrey RB Stanford 10 
+
+44 Kyle Juszczyk FB Harvard 14 
+
+85 George Kittle TE Iowa 10 
+
+1 Ricky Pearsall WR Florida 3 
+
+5 Mike Evans WR Texas_A&M 13 
+
+10 Mac Jones QB Alabama 6 
+
+14 Kurtis Rourke QB Indiana 1 
+
+4 Adrian Martinez QB Kansas_State 2 
+
+2 Deommodore Lenoir DB Oregon 6 
+
+6 Malik Mustapha S Wake_Forest 3 
+
+22 Nate Hobbs CB Illinois 6 
+
+24 Jack Jones CB Arizona_St. 5 
+
+25 Patrick McMorris S California 3 
+
+27 Ji'Ayir Brown S Penn_State 4 
+
+28 Darrell Luter_Jr. CB South_Alabama 4 
+
+29 Darrick Forrest S Cincinnati 5 
+
+29 Jordan James RB Oregon 2 
+
+30 Eli Apple CB Ohio_State 10 
+
+31 Isaac Guerendo RB Louisville 3 
+
+33 Siran Neal DB Jacksonville_State 9 
+
+40 Derrick Canteen DB Cincinnati 1 
+
+41 Jalen Graham LB Purdue 3 
+
+45 Nick Martin LB Oklahoma_State 2 
+
+48 Tatum Bethune LB Florida_State 3 
+
+51 Luke Gifford LB Nebraska 8 
+
+54 Fred Warner LB BYU 9 
+
+57 Dre Greenlaw LB Arkansas 8 
+
+58 Evan Anderson DL Florida_Atlantic 2 
+
+60 Brandon Parker OL North_Carolina_A&T 8 
+
+62 Austen Pleasants OL Ohio 2 
+
+64 Jake Brendel OL UCLA 9 
+
+65 Robert Jones OL Middle_Tennessee_St. 6 
+
+66 Drake Nugent OL Michigan 1 
+
+67 Isaac Alarcon OL Tecnológico_de_Monterrey 1 
+
+68 Colton McKivitz OL West_Virginia 7 
+
+69 William Bradley-King DL Baylor 1 
+
+71 Trent Williams OT Oklahoma 16 
+
+75 Connor Colby OL Iowa 2 
+
+76 Vederian Lowe OL Illinois 5 
+
+77 Dominick Puni OL Kansas 3 
+
+83 Hayden Rucci TE Wisconsin 1 
+
+86 Junior Bergen WR Montana 1 
+
+89 Luke Farrell TE Ohio_State 6 
+
+90 Kevin Givens DL Penn_State 7 
+
+91 Sam Okuayinonu DL Maryland 4 
+
+92 Osa Odighizuwa DL UCLA 6 
+
+95 Alfred Collins DL Texas 2 
+
+96 Cameron Sample DL Tulane 6 
+
+97 Nick Bosa DL Ohio_State 8 
