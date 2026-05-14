@@ -36,8 +36,19 @@ int loadRoster(Player roster[]) {
     inputFile.close();
     return count;
 }
-
-// 3. Search Logic
+//3. Added sorting algorithm
+void sortByNumber(Player roster[], int count) {
+ for (int i = 0; i < count - i - 1; i++) {
+      for (int j = 0; j < count - i - 1; j++) {
+          if (roster[j].number > roster[j + 1].number) {
+             Player temp = roster[j];
+             roster[j] = roster[j + 1];
+             roster[j + 1] = temp;
+          }
+      } 
+  }
+}
+// 4. Search Logic
 void searchByNumber(const vector<Player>& roster) {
     int searchNum;
     cout << "\nEnter Jersey Number: ";
