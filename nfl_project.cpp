@@ -18,12 +18,12 @@ struct Player {
     int experience;
 };
 
-// 2. Load data from the file into the vector
-void loadRoster(vector<Player>& roster) {
-    ifstream inputFile("Roster.txt");
+// 2. Load data from the file into the vector UPDATE: CHANGED TO AN ARRAY 
+int loadRoster(Player roster[]) {
+    ifstream inputFile("Rosters.txt");
     if (!inputFile) {
-        cout << "Notice: 'Roster.txt' not found. Starting with empty roster." << endl;
-        return;
+        cout << "Notice: 'Rosters.txt' not found. Starting with empty roster." << endl;
+        return 0;
     }
 
     Player temp;
