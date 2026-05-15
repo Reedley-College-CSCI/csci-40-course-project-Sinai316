@@ -71,8 +71,8 @@ void searchByNumber(const Player roster[], int count) { // vector search changed
 
 // 4. Main Menu
 int main() {
-    vector<Player> roster;
-    loadRoster(roster);
+    Player roster[MAX_PLAYERS]; // changed 
+    int playerCount = loadRoster(roster);  // changed as well
 
     int choice = 0;
     while (choice != 2) {
