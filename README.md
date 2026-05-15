@@ -7,12 +7,15 @@ This program makes it easy to find specific player information from a football r
 ---
 
 ## 2. Design Decisions
-- What fundamental programming constructs and data types did you use, and why?  
-- Why did you choose to structure your data using structs?  
-- How did you implement searching and sorting? What algorithms did you use and why?  
-- How do you ensure data persistence between program runs?  
-- Did you consider alternative approaches? If so, why did you not use them?  
+Constructs & Data Types: I used while loops for the menu, for loops for searching/sorting, and if statements for decision-making. Basic types like int to track jersey numbers and experience, while string stores text like names and colleges.
 
+Structs: I used a Player struct to group all related details (name, number, position) into one single container, keeping the data organized and avoiding multiple separate arrays.
+
+Searching & Sorting: I used a Bubble Sort algorithm to arrange players in order by their jersey numbers, and a Linear Search to scan the array step-by-step when a user looks up a number. These were chosen because they are simple and reliable for this array size.
+
+Data Persistence: I used ifstream to automatically open and read Rosters.txt when the program starts, ensuring the roster data is loaded into memory every time.
+
+Alternative Approaches: I initially considered using a vector, but decided a standard fixed-size array (MAX_PLAYERS = 100) was simpler to manage and perfectly fit the assignment requirements. All NFL teams also usually have only have around 53 players on the roster so there is enough space to put each player.
 ---
 
 ## 3. Testing Summary
@@ -33,6 +36,7 @@ The program starts in main() by running loadRoster(), which reads Rosters.txt li
 
 ## 5. Challenges and Lessons Learned
 Challenges: A major challenge was preventing an infinite loop if a user typed a letter instead of a number in the menu.
+Challenges: Another challenge I had was storing the Rosters.txt file in another folder so then I had to make a new one.
 
 Lessons Learned: I learned how to use cin.clear() and cin.ignore() to fix input stream errors, making the console interface much more stable.
 
