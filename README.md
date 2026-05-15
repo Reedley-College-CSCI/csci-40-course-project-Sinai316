@@ -36,4 +36,4 @@ This program makes it easy to find specific player information from a football r
 ---
 
 ## 6. Future Improvements
-- If you had more time, what changes or enhancements would you make?  
+If I had more time, I would expand the search function so users could look up players by last name. I would also add a feature to insert new players or update stats directly from the menu and save them back to the text file.
