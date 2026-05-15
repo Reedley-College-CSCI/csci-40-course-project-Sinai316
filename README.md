@@ -2,8 +2,7 @@
 # CS1 Final Project - 49ers Quick Search Tool Project
 https://youtu.be/AZPbrlvpr2A // Video Demo
 ## 1. Overview
-- What problem does your project solve?  
-- Briefly describe the purpose and key features of your program.  
+This program makes it easy to find specific player information from a football roster without looking through a text file manually. It loads a San Francisco 49ers roster from an external file, organizes the data, and lets users quickly look up players by their jersey number through a simple console menu.  
 
 ---
 
