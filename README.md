@@ -16,9 +16,13 @@ This program makes it easy to find specific player information from a football r
 ---
 
 ## 3. Testing Summary
-- **Structured Testing Log:** Include a table with test cases, expected output, actual output, and pass/fail status.  
-- What testing methods did you use?  
-- Provide examples of test inputs (valid and invalid) and describe how your program responds.  
+I tested the program manually by running it multiple times and entering valid inputs, invalid numbers, and incorrect data types to ensure it handles errors without crashing.
+
+| Test Case | Expected Output | Actual Output | Pass/Fail |
+| :--- | :--- | :--- | :--- |
+| Enter a valid jersey number | Display correct player stats and info | Displayed correct player stats and info | Pass |
+| Enter a number not on roster | Display "No player found with #" | Displayed "No player found with #" | Pass |
+| Enter letters instead of a number | Display "Invalid input" and reset menu | Displayed "Invalid input" and reset menu | Pass |
 
 ---
 
