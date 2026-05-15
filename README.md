@@ -30,8 +30,9 @@ This program makes it easy to find specific player information from a football r
 ---
 
 ## 5. Challenges and Lessons Learned
-- What challenges did you encounter while working on this project?  
-- What key lessons did you learn about programming and problem-solving?  
+Challenges: A major challenge was preventing an infinite loop if a user typed a letter instead of a number in the menu.
+
+Lessons Learned: I learned how to use cin.clear() and cin.ignore() to fix input stream errors, making the console interface much more stable.
 
 ---
 
