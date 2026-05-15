@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Ay551EX-)
 # CS1 Final Project - 49ers Quick Search Tool Project
-https://youtu.be/AZPbrlvpr2A // Video Demo
+https://youtu.be/AZPbrlvpr2A (Video Demo)
 ## 1. Overview
 This program makes it easy to find specific player information from a football roster without looking through a text file manually. It loads a San Francisco 49ers roster from an external file, organizes the data, and lets users quickly look up players by their jersey number through a simple console menu.  
 
