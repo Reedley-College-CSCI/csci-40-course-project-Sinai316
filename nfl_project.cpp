@@ -82,10 +82,16 @@ int main() {
         cout << "1. Look up Player by Number" << endl;
         cout << "2. Exit" << endl;
         cout << "Selection: ";
-        cin >> choice;
+        
+        if (!(cin >> choice)) {  // I added input validation
+            cin.clear();
+            cin.ignore(100, '/n');
+            cout << "Invalid input. Please enter a number." << endl;
+            continue;
+        }
 
         if (choice == 1) {
-            searchByNumber(roster);
+            searchByNumber(roster,playerCount);
         }
         else if (choice != 2) {
             cout << "Invalid selection." << endl;
