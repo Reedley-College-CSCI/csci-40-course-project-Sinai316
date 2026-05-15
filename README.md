@@ -16,6 +16,7 @@ Searching & Sorting: I used a Bubble Sort algorithm to arrange players in order 
 Data Persistence: I used ifstream to automatically open and read Rosters.txt when the program starts, ensuring the roster data is loaded into memory every time.
 
 Alternative Approaches: I initially considered using a vector, but decided a standard fixed-size array (MAX_PLAYERS = 100) was simpler to manage and perfectly fit the assignment requirements. All NFL teams also usually have only have around 53 players on the roster so there is enough space to put each player.
+
 ---
 
 ## 3. Testing Summary
