@@ -49,19 +49,19 @@ void sortByNumber(Player roster[], int count) {
   }
 }
 // 4. Search Logic
-void searchByNumber(const vector<Player>& roster) {
+void searchByNumber(const Player roster[], int count) { // vector search changed
     int searchNum;
     cout << "\nEnter Jersey Number: ";
     cin >> searchNum;
 
     bool found = false;
-    for (const auto& p : roster) {
-        if (p.number == searchNum) {
+    for (int i = 0; i < count; i++) {
+        if (roster[i].number == searchNum) {
             cout << "\n--- [ PLAYER FOUND ] ---" << endl;
-            cout << "Name:       " << p.name << endl;
-            cout << "Position:   " << p.position << endl;
-            cout << "College:    " << p.college << endl;
-            cout << "Experience: " << p.experience << " years" << endl;
+            cout << "Name:       " << roster[i].firstName << " " << roster[i].lastName << endl;
+            cout << "Position:   " << roster[i].position << endl;
+            cout << "College:    " << roster[i].college << endl;
+            cout << "Experience: " << roster[i].experience << " years" << endl;
             found = true;
             break;
         }
