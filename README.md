@@ -23,7 +23,7 @@ This program makes it easy to find specific player information from a football r
 ---
 
 ## 4. Technical Walkthrough
-The program starts in main() by running loadRoster(), which reads Rosters.txt line-by-line to fill the array. The user is then presented with a menu. Selecting option 1 triggers searchByNumber(), which prompts for a jersey number, runs a loop to find a match in the array, and prints the player's information. Option 2 ends the program after the user is done searching for players.
+The program starts in main() by running loadRoster(), which reads Rosters.txt line-by-line to fill the array. The user is then presented with a menu. Selecting option 1 triggers searchByNumber(), which prompts for a jersey number, runs a loop to find a match in the array, and prints the player's information. Option 2 ends the program after the user is done searching for players. (link is posted above for demonstration)
 
 ---
 
